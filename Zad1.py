@@ -1,5 +1,5 @@
 def hello(name: str, surname: str) -> str:
-    s = f'Cześć {name} {surname}';
+    s = f'Cześć {name} {surname}'
     return s
 
 
