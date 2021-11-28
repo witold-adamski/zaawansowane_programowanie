@@ -1,4 +1,4 @@
-from Zad1 import Student
+from zad_1 import Student
 
 
 class Library:
