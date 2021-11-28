@@ -6,7 +6,9 @@ class Property:
         self.address = address
 
     def __str__(self):
-        return f'Nieruchomość o powierzchni (m^2): {self.area}, liczbie pokoi: {self.rooms}, cenie: {self.price}, i adresie: {self.address}. '
+        return f'Nieruchomość o powierzchni (m^2): {self.area}, ' \
+               f'liczbie pokoi: {self.rooms}, cenie: {self.price}, ' \
+               f'i adresie: {self.address}. '
 
 
 class House(Property):
