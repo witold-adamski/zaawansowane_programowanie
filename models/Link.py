@@ -1,4 +1,4 @@
-class Links:
+class Link:
     def __init__(self, movieId: str, imdbId: str, tmdbId: str):
         self._movieId = movieId
         self._imdbId = imdbId

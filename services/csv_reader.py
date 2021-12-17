@@ -6,10 +6,10 @@ def read_csv(path, class_name):
     with open(path, 'r', errors="ignore") as read_obj:
         csv_reader = reader(read_obj)
         header = next(csv_reader)
-        if header != None:
+        print(header)
+        if header is not None:
             for row in csv_reader:
-                obj = object()
-                #obj = class_name(row[0], row[1], row[2])
-                obj = class_name(**)
+                print(*row)
+                obj = class_name(*row)
                 objects_list.append(obj.api())
     return objects_list
